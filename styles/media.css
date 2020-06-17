@@ -1,0 +1,45 @@
+@media (max-width: 1199px) {
+    .header {
+        justify-content: space-around;
+    }
+    img {
+        width: 90%;
+    }
+    .map {
+        width: 100%;
+    }
+    .desc3, .info-head {
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .header .main-menu{
+        display: none;
+    }
+    .main-head {
+        flex-direction: column;
+        margin: 5rem 0;
+    }
+    .main-head img {
+        display: none;
+    }
+    .desc, .info-block2, .info-block3, .quotes-blocks, .download-block, .price-container, .contacts-blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+    .download-block {
+        padding: 3rem 0;
+    }
+    form {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-block {
+        display: flex;
+        flex-direction: column;
+    }
+ }
